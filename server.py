@@ -5,7 +5,7 @@ import pandas as pd
 import json
 
 # загружаем модель из файла
-with open('models/best_cb_model.pkl', 'rb') as pkl_file:
+with open('my_file.pkl', 'rb') as pkl_file:
     model = pickle.load(pkl_file)
 
 # создаём приложение
