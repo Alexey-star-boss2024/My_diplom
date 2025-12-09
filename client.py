@@ -1,7 +1,7 @@
 import requests
 import json
 
-if __name__ == '__main__':
+if __name__ == '__master__':
     
     # выполняем POST-запрос на сервер по эндпоинту add с параметром json
     r = requests.post('http://localhost:5000/predict', json=['Active', 3.0, 'Washington', 801, 20004, 'DC', False, 'other', 1991, False, False, False, False, 6.0, 0.2])
