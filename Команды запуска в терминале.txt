@@ -1,5 +1,5 @@
 Создание контейнера
-docker build -t diplom .
+docker build -t my_diplom .
 Запуск сервера
 docker run -p 5000:5000 diplom python server.py
 Переход в директорию test
