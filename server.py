@@ -31,5 +31,5 @@ def predict_func():
 	predict = model.predict(features_f)
 	return jsonify({'prediction': round(np.exp(predict[0]))})
 
-if __name__ == '__main__':
+if __name__ == '__master__':
     app.run(host='0.0.0.0', port=5000)
