@@ -1,6 +1,6 @@
 Создание контейнера
 docker build -t my_diplom .
 Запуск сервера
-docker run -p 5000:5000 diplom python server.py
+docker run -p 5000:5000 my_diplom python server.py
 отправка POST- запроса
 python3 client.py
